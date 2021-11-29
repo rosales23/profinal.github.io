@@ -1,0 +1,117 @@
+@import "mi-nav.css";
+@import "mi-footer.css";
+@import "listas.css";
+
+:root {
+  font-family: sans-serif;
+  --col-active: #4646462c;
+  --color-header: white;
+  --colorMiNav: white;
+  background-color: antiquewhite;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:
+    var(--color-header);
+}
+
+.herramientas {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+header input {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+legend,
+p label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+p label>* {
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
+.inicio_de_sesion {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.inicio_de_sesion:hover {background-color: #3e8e41}
+
+.inicio_de_sesion:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boton_inicio{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 2em;
+}
+
+.datos_creador{
+  margin-top: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img{
+  width: 20px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#google{
+  font-size: medium;
+  width: 150px;
+}
