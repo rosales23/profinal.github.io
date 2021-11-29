@@ -43,6 +43,9 @@ class MiNav extends HTMLElement {
               `<li>
                 <a href=
                   "chat.html">Chat</a>
+              </li>
+              <li>
+              <a href="menu.html">Usuarios</a>
               </li>`;
           }
           /* Enlaces para solo
