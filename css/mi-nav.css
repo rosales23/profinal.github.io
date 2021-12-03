@@ -1,7 +1,6 @@
 mi-nav {
   display: block;
-  background-color:
-    var(--colorMiNav);
+  background-color: rgb(39, 87, 189);
 }
 
 mi-nav ul {
@@ -12,8 +11,13 @@ mi-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 mi-nav ul li {
   margin: 0.5rem;
+}
+
+a {
+  color: rgb(252, 221, 45);
 }

@@ -61,3 +61,15 @@ p label>* {
   box-sizing: border-box;
   width: 100%;
 }
+
+button{
+  background-color: rgb(255, 162, 23);
+  color: rgb(34, 32, 160);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  background-color:rgb(228, 194, 82) ;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
