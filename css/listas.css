@@ -14,7 +14,8 @@
 
 .fila {
   display: block;
-  padding: 1rem;
+  padding: 0.5rem;
+  color: black;
 }
 
 a.fila:active {
