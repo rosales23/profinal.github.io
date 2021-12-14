@@ -60,25 +60,34 @@
           accept=".png,.jpg,.jpeg,.gif">
       </label>
     </p>
-
+    <!--
+      Maneja una asociación a uno.
+    -->
     <p>
       <label>
-        Descripción
-        <input name="cue1">
+        Alumno
+        <select
+          name="alumnoId">
+          <option>
+            Cargando…
+          </option>
+        </select>
       </label>
     </p>
-    <p>
-
-      <p>
-        <label>
-          Precio
-          <input name="cue2">
-        </label>
-      </p>
-      <p>
-
-    
-
+    <!--
+      Maneja una asociación a
+      muchos.
+    -->
+    <fieldset>
+      <legend>Roles</legend>
+      <ul id="listaRoles"
+        class="checks">
+        <li>
+          <mi-progreso>
+          </mi-progreso>
+        </li>
+      </ul>
+    </fieldset>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
