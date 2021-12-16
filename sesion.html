@@ -48,26 +48,23 @@
 </head>
 <body>
  <form name="forma">
-    <mi-nav></mi-nav>
     <header>
-      <h1>Sesión</h1>
+      <h1>Bienvenid@ <h2><output name="nombre">
+        <mi-progreso>
+        </mi-progreso>
+      </output></h2></h1>
+      
       <div class="herramientas">
-        <button
-          type="button"
-          name="terminarSesión">
-          Terminar Sesión
-        </button>
+        <a href="index.html">
+          <button type="button" name="terminarSesión">
+            Terminar Sesión
+          </button>
+        </a>
       </div>
     </header>
-    <p>
-      <label>
-        Nombre
-        <output name="nombre">
-          <mi-progreso>
-          </mi-progreso>
-        </output>
-      </label>
-    </p>
+    <mi-nav></mi-nav>
+    <h3>Estas son algunas de nuestras promociones: </h3>
+
     <mi-footer></mi-footer>
   </form>
   <script type="module"
