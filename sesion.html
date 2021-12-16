@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="icon" href="imagenes/Logos/icono_pag.jpeg">
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width,
@@ -12,21 +11,21 @@
     JS SDK
   -->
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js">
     </script>
   <!--
     Agrega el manejo de
     autenticación.
   -->
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js">
     </script>
   <!--
     Agrega el manejo de bases de
     datos.
   -->
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js">
     </script>
   <!--
     Configura la app usando la
@@ -49,10 +48,9 @@
 </head>
 <body>
  <form name="forma">
-    
+    <mi-nav></mi-nav>
     <header>
-      <h1>Bienvenid@</h1>
-      <h2> a Don Beto</h2>
+      <h1>Sesión</h1>
       <div class="herramientas">
         <button
           type="button"
@@ -60,16 +58,29 @@
           Terminar Sesión
         </button>
       </div>
-        </div>
     </header>
-    <mi-nav></mi-nav>
-    <output name="nombre">
-      <mi-progreso>
-      </mi-progreso>
-    </output>
-    <h3>Alguno de nuestras promociones hoy son:</h3>
-
-
+    <figure>
+      <img id="avatar" src=""
+        alt="Avatar">
+    </figure>
+    <p>
+      <label>
+        Email
+        <output name="email">
+          <mi-progreso>
+          </mi-progreso>
+        </output>
+      </label>
+    </p>
+    <p>
+      <label>
+        Nombre
+        <output name="nombre">
+          <mi-progreso>
+          </mi-progreso>
+        </output>
+      </label>
+    </p>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
