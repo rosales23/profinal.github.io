@@ -27,9 +27,13 @@ import {
       usuario */
   async function protege(usuario) {
     if (tieneRol(usuario,
-      ["Cliente", "Administrador"])) {
+      ["Cliente"])) {
       consulta();
     }
+    if (tieneRol(usuario,
+        ["Administrador"])) {
+        consulta();
+      }
   }
   
   function consulta() {
