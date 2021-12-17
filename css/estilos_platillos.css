@@ -7,13 +7,14 @@
   --col-active: #4646462c;
   --color-header: white;
   --colorMiNav: white;
-  background-color: antiquewhite;
+  background-image: url("../imagenes/Don_beto/fondo_tortas.jpeg")
 }
 
 body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
+  
 }
 
 header {
