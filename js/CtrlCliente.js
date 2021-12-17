@@ -8,7 +8,8 @@ import {
     muestraError
   } from "../lib/util.js";
   import {
-    tieneRol
+    tieneRol,
+    terminaSesión
   } from "./seguridad.js";
   
   /** @type {HTMLUListElement} */
@@ -91,6 +92,7 @@ import {
   function errConsulta(e) {
     muestraError(e);
     consulta();
+    terminaSesión();
   }
   
 }
