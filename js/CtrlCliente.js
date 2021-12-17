@@ -29,11 +29,6 @@ import {
     if (tieneRol(usuario,
       ["Cliente"])) {
       consulta();
-    }
-    if (tieneRol(usuario,
-        ["Administrador"])) {
-        consulta();
-      }
   }
   
   function consulta() {
