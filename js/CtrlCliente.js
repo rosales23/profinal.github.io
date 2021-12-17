@@ -21,7 +21,7 @@ import {
   
   getAuth().
     onAuthStateChanged(
-      protege, muestraError);
+      protege, muestraError, terminaSesión);
   
   /** @param {import(
       "../lib/tiposFire.js").User}
