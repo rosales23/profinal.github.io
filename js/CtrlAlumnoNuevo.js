@@ -15,7 +15,7 @@ import {
 
 const daoAlumno =
   getFirestore().
-    collection("Alumno");
+    collection("Platillo");
 /** @type {HTMLFormElement} */
 const forma = document["forma"];
 getAuth().onAuthStateChanged(
