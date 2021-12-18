@@ -79,7 +79,7 @@ import {
     return ( /* html */
       `<li>
         <a class="fila" href=
-    "alumno.html?${parámetros}">
+    "promociones.html?${parámetros}">
           <strong class="primario">
             ${matricula} ${nombre} ${dformat}
           </strong>
