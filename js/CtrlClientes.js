@@ -55,11 +55,6 @@ import {
         forma.telefono.value = data.telefono || "";
         forma.grupo.value = data.grupo || "";
         forma.fecha.value = data.fecha || "";
-        forma.addEventListener(
-          "submit", guarda);
-        forma.eliminar.
-          addEventListener(
-            "click", elimina);
       } else {
         throw new Error(
           "No se encontró.");
