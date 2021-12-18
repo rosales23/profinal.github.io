@@ -55,7 +55,7 @@ class MiNav extends HTMLElement {
             "Administrador")) {
             html += /* html */
               `<li>
-                <a href="alumnos.html">Agregar platillos</a>
+                <a href="alumnos.html">Promociones</a>
               </li>
               <li>
                 <a href="usuarios.html">Platillos</a>
